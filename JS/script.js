@@ -9,20 +9,13 @@ Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. St
 
 console.log("ciao");
 
-const mail = [
-  "metal-gear-89@hotmail.it",
-  "pippobaudo@gmail.com",
-  "papera@boolean.com",
-];
+const mail = ["giuseppe@ciao.it", "pippo@baudo.com", "papera@boolean.com"];
 
 const user = prompt("digita la tua mail per entrare!");
 
-for (let i = 0; i < mail.length; i++) {
-  const list = mail[i];
-  console.log(list);
-  if (user == mail) {
-    alert("Benvenuto!");
-  } else {
-    alert("Tu non puoi passare!");
-  }
+if (mail.includes(user)) {
+  alert("Benvenuto!");
+  console.log(user);
+} else {
+  alert("Tu non puoi passare!");
 }
