@@ -27,7 +27,7 @@ const player = Math.floor(Math.random(1) * 7);
 
 Math.floor(Math.random(1) * 7);
 
-console.log(user);
+console.log(player);
 
 const bot = Math.floor(Math.random(1) * 7);
 
